@@ -1,0 +1,11 @@
+---
+name: wubi86.extended
+version: "2025.09.12"
+sort: by_weight                    # 对于候选词排序，by_weight指根据权重来，original指根据你提供的顺序来
+use_preset_vocabulary: true        # 开启预选，你还没完整打出对应的拼音，对应词汇也会跳出来候选
+import_tables:
+  - Dictionary/wubi86.microsoftsingle           # 微软单字词库
+  - Dictionary/wubi86.jishuangphrase            # 极爽词组词库
+  - Dictionary/wubi86.common                    # 常用词库
+  - Dictionary/wubi86.jixie                     # 机械词库
+...

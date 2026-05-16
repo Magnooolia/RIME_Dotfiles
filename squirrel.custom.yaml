@@ -1,0 +1,47 @@
+patch:
+  style:
+    font_face: "霞鹜文楷"          # 设置字体
+    font_point: 18                # 设置字号
+    text_orientation: horizontal  # 文字方向，horizontal: 水平；vertical：垂直
+    candidate_list_layout: stack # 候选词方向，stack：竖向；linear：横向
+    candidate_format: "[label] [candidate] [comment]"         #候选词样式，以[label]指代序号，[candidate]指代候选词，[comment]指代注释，可另加任意其它字符，也可多次重复出现例如"[label]. [candidate] [comment]"
+    corner_radius: 8             # 面板圆角
+    # hilited_corner_radius: 10     # 选中项圆角
+    inline_preedit: true          # 内嵌编码
+    color_scheme: macos_blue_rounded  # 选择主题
+
+  preset_color_schemes:
+    poetry_spring:
+      name: 诗意之春／Poetry Spring
+      author: 空山明月 <mrshiqiqi@126.com>
+      text_color: 0x333333                              # 文本色
+      back_color: 0xe3fbe6                              # 背景色
+      label_color: 0x5c5c5c                             # 标签色
+      hilited_text_color: 0x333333                      # 编码文本色
+      candidate_text_color: 0x333333                    # 非高亮候选文本色
+      comment_text_color: 0x5c5c5c                      # 非高亮注解文本色
+      hilited_candidate_label_color: 0xFFFFFF           # 高亮标签色
+      hilited_candidate_text_color: 0xFFFFFF            # 高亮候选文本色
+      hilited_candidate_back_color: 0x35922a            # 高亮候选背景色
+      hilited_comment_text_color: 0xFFFFFF              # 高亮注解文本色
+    macos_blue_rounded:
+      name: "macOS 蓝 · 大圆角"
+      # 面板背景
+      back_color: 0xF5F7F7              # 浅米白背景
+      border_color: 0xD0D0D0            # 面板描边（浅灰）
+      # 普通候选文字
+      text_color: 0x1A1A1A              # 候选词颜色（深黑）
+      label_color: 0x999999            # 序号颜色（灰）
+      comment_text_color: 0x999999     # 注音/词性（灰）
+      # 选中候选 —— 蓝底白字
+      hilited_back_color: 0xC97A3A     # 选中背景（蓝 #3a78c9 → BGR: C97A3A）
+      hilited_text_color: 0xFFFFFF     # 选中词颜色（白）
+      hilited_label_color: 0xCCEEFF    # 选中序号（浅蓝白）
+      hilited_comment_text_color: 0xCCEEFF  # 选中注音（浅蓝白）
+      # 输入区（preedit）
+      hilited_candidate_back_color: 0xC97A3A
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_candidate_label_color: 0xCCEEFF
+      # preedit 文字
+      preedit_back_color: 0xF5F7F7
+      candidate_text_color: 0x1A1A1A

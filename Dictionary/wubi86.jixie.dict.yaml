@@ -1,0 +1,27 @@
+---
+name: wubi86.jixie
+version: "2026.03.22"
+sort: by_weight
+use_preset_vocabulary: true
+columns:
+  - text
+  - code
+  - weight
+  - stem
+encoder:
+  exclude_patterns:
+    - '^z.*$'
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 10]
+      formula: "AaBaCaZa"
+...
+
+支腿  fcev  10
+辊筒	ljtm	10
+钣金  qrqq  10
+摆臂	rlnk	10
+打臂	rsnk	10

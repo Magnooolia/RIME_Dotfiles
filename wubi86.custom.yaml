@@ -1,0 +1,23 @@
+patch:
+  schema/icon: CN.ico
+  schema/ascii_icon: EN.ico
+  translator/dictionary: wubi86.extended
+  translator/enable_user_dict: false         # 关闭用户词典和字频调整
+  translator/enable_sentence: false          # 关闭码表输入法连打
+
+  speller/max_code_length: 4                 # 开启四码顶字上屏
+
+  key_binder/bindings:                       # 空码时按空格键清空输入码
+      - {when: has_menu, accept: space, send: space}
+      - { when: has_menu, accept: semicolon, send: 2 }
+      - { when: has_menu, accept: apostrophe, send: 3 }
+      - {when: composing, accept: space, send: Escape}
+
+  recognizer:
+    # import_preset: default
+    patterns:
+      email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+      punct: "^/([0-9]0?|[A-Za-z]+)$"
+      reverse_lookup: "^z[a-z]*'?$"
+      # uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+      url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"

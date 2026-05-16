@@ -1,0 +1,18 @@
+# 排除所有编译后的二进制缓存（部署时会自动重新生成）
+*.bin
+installation.yaml
+user.yaml
+
+# 排除用户动态词库与同步记录（保护打字隐私，防止多设备冲突）
+*.userdb/
+/sync/
+
+# 排除运行日志与临时文件
+*.log
+/build/
+
+# 系统与编辑器缓存（可选，建议排除）
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

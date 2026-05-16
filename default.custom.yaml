@@ -1,0 +1,15 @@
+patch:
+  schema_list:
+    - schema: wubi86
+    - schema: pinyin_simp
+
+  menu/page_size: 5          # 每页候选词个数
+  menu/alternative_select_labels: [ ㊀, ㊁, ㊂, ㊃, ㊄, ㊅, ㊆, ㊇, ㊈, ㊉ ]
+
+  ascii_composer/good_old_caps_lock: true
+  ascii_composer/switch_key:
+    Caps_Lock: commit_code
+    Shift_L: commit_code
+    Shift_R: noop
+    Control_L: noop
+    Control_R: noop
