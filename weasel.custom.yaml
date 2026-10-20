@@ -121,3 +121,7 @@ patch:
       ascii_mode: true
     wezterm-gui.exe:
       ascii_mode: true
+    gcad.exe:
+      ascii_mode: true
+    Zed.exe:
+      ascii_mode: true
