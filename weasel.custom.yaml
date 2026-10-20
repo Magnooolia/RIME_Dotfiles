@@ -117,11 +117,11 @@ patch:
       ascii_mode: true
     cmd.exe:
       ascii_mode: true
+    gcad.exe:
+      ascii_mode: true
     SLDWORKS.exe:
       ascii_mode: true
     wezterm-gui.exe:
-      ascii_mode: true
-    gcad.exe:
       ascii_mode: true
     Zed.exe:
       ascii_mode: true
