@@ -45,3 +45,13 @@ patch:
       # preedit 文字
       preedit_back_color: 0xF5F7F7
       candidate_text_color: 0x1A1A1A
+
+  app_options:
+    com.apple.Terminal:
+      ascii_mode: true
+    com.netcatty.app:
+      ascii_mode: true
+    com.termius-dmg.mac:
+      ascii_mode: true
+    dev.zed.Zed:
+      ascii_mode: true
