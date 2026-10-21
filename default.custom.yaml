@@ -6,6 +6,10 @@ patch:
   menu/page_size: 5          # 每页候选词个数
   menu/alternative_select_labels: [ ㊀, ㊁, ㊂, ㊃, ㊄, ㊅, ㊆, ㊇, ㊈, ㊉ ]
 
+  # 输入方案切换热键设置
+  switcher/hotkeys:
+    - "Control+grave"                     # 使用 Ctrl+` 切换输入方案，禁用 F4
+
   ascii_composer/good_old_caps_lock: true
   ascii_composer/switch_key:
     Caps_Lock: commit_code
